@@ -99,7 +99,7 @@ impl MyFlashloanProgramInstruction {
 	/// Packs a [LendingInstruction](enum.LendingInstruction.html) into a byte buffer.
     pub fn pack(&self) -> Vec<u8> {
         let mut buf = Vec::with_capacity(size_of::<Self>());
-        match *self {
+        match self {
             Self::InitMyFlashloanProgram {} => {
                 buf.push(0);
             }
@@ -116,7 +116,7 @@ impl MyFlashloanProgramInstruction {
                 buf.push(2);
                 buf.extend_from_slice(&amount.to_le_bytes());
 				let mut execute_operation_ix_data_borrowed = execute_operation_ix_data;
-				buf.append(execute_operation_ix_data_borrowed.borrow_mut());
+				// buf.append(execute_operation_ix_data_borrowed.borrow_mut());
             }
         }
         buf

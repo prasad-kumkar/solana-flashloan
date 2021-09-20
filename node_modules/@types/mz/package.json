@@ -1,0 +1,32 @@
+{
+    "name": "@types/mz",
+    "version": "2.7.4",
+    "description": "TypeScript definitions for mz",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/mz",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Thomas Hickman",
+            "url": "https://github.com/ThomasHickman",
+            "githubUsername": "ThomasHickman"
+        },
+        {
+            "name": "ExE Boss",
+            "url": "https://github.com/ExE-Boss",
+            "githubUsername": "ExE-Boss"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/mz"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "0424243fd5242efa241aa0cac7c5a9fb70716c55c9ec9c36173270885375c31f",
+    "typeScriptVersion": "3.6"
+}
